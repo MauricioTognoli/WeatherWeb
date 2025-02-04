@@ -3,7 +3,7 @@ const API_KEY = "91679ed48516303bcd3330304c2a9d97";
 
 export const getCitySuggestions = async (query: string) => {
   const response = await axios.get(
-    "http://api.openweathermap.org/geo/1.0/direct",
+    "https://api.openweathermap.org/geo/1.0/direct",
     {
       params: {
         q: query,
